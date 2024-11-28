@@ -82,6 +82,7 @@ let sonidoGanar = new Audio("./SOUNDS/SIUUUUUUU.mp3");
 let sonidoRegresivo = new Audio("./SOUNDS/cuentaRegresiva.mp3");
 let sonidoTerminaste = new Audio("./SOUNDS/GraciasAficion.mp3");
 let sonidoFondo = new Audio("./SOUNDS/sonidofondo.mp3");
+        sonidoFondo.loops = true;
 let mostrarJugador = d.querySelector(".jugador");
 let tabla = d.querySelector(".records tbody");
 let fondoBody = d.querySelector("body");
