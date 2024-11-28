@@ -157,7 +157,7 @@ function mostrarImagenes(){
     //activar la funcion de comparar imagenes
     if(nombreImg.length == 2){
         //simular o esperar un tiempo
-        setTimeout(compararImagenes, 100);    
+        setTimeout(compararImagenes, 300);    
     }
 }
 
