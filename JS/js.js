@@ -310,6 +310,6 @@ function ventanaModal(){
         estoyJugando = true;
         nivel1();
 
-        sonidoFondo.pause();
+        sonidoFondo.play();
     });
 }
