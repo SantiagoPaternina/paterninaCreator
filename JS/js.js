@@ -108,7 +108,7 @@ btn_iniciar.addEventListener("click", function(){
         estoyJugando = true;
         nivel3();
     }
-    sonidoFondo.play();
+    sonidoFondo.pause();
 
 });
 
