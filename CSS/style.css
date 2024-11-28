@@ -1,0 +1,19 @@
+.altura{
+    height: 130px !important;
+    border-radius: 15px;
+    width: 130px;
+    margin: 5px;
+}    
+.tiempo-agotado{
+    color: red;
+    font-size: 25px;
+}
+.tablero div img:hover{
+    transform: scale(1.2);
+    box-shadow: -2px 0px 26px -2px rgba(206,0,0,0.62);
+}
+.fondo{
+    background-image: url("../IMG/fondo.jpg");
+    background-size: cover;
+    height: 100vh;
+}
