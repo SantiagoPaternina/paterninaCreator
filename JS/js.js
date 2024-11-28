@@ -108,7 +108,6 @@ btn_iniciar.addEventListener("click", function(){
         estoyJugando = true;
         nivel3();
     }
-    sonidoFondo.play();
 
 });
 
@@ -310,5 +309,7 @@ function ventanaModal(){
         //iniciar nivel 1
         estoyJugando = true;
         nivel1();
+
+        sonidoFondo.play();
     });
 }
